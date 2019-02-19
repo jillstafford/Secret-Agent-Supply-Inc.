@@ -1,0 +1,155 @@
+/*site wide settings*/
+
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+/* site wide styles */
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+a:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* header */
+header {
+  background-color: black;
+  width: 100%;
+  display:inline-flex;
+  justify-content:space-between;
+  position: fixed;
+  padding-top: 0px;
+  z-index: 1;
+}
+
+h1 {
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+
+.logo .name {
+  display: inline-flex;
+
+}
+
+.logo {
+  margin-left: .5rem;
+  margin-right: 1rem;
+
+}
+
+.name {
+
+
+}
+
+/* banner section */
+.main-banner {
+  display: flex;
+  background-image: url('../mainbannerbkgrnd.jpeg');
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 100px;
+  height: 25rem;
+  width: 100%;
+}
+
+.banner-text {
+  background-color: black;
+  margin-top: 9rem;
+  margin-bottom: auto;
+  width: 20rem;
+  color: white;
+
+}
+
+.headline1 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.headline2 {
+  color: white:
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* middle navigation */
+.mid-nav {
+  background-color: firebrick;
+  display: inline-flex;
+  justify-content: space-around;
+
+}
+
+nav {
+  color: white;
+  margin: .75rem;
+
+}
+
+/* product, location and hours section */
+.productloc-container {
+  display: flex;
+}
+
+.products {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  justify-content: center;
+
+}
+
+.image-content {
+    border: 4px solid black;
+    width: 30%;
+}
+
+.proddet{
+  height: 9rem;
+  margin-left: 2rem;
+  justify-content:
+
+}
+
+h4 {
+  background-color: black;
+  color: white;
+  text-align: center;
+
+}
+
+.location-hours {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.location, .hours {
+  width: 35%;
+
+}
+
+
+/* footer */
+footer {
+  display: flex;
+  height: 5rem;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+
+p {
+  text-align: left;
+}
+/* media queries */
